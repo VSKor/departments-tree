@@ -1,0 +1,113 @@
+/* line 1, styles.scss */
+.hierarchy {
+  width: 5500px;
+}
+
+/* line 4, styles.scss */
+.node {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 10px;
+  -webkit-transition: background-color .4s;
+  -moz-transition: background-color .4s;
+  -ms-transition: background-color .4s;
+  -o-transition: background-color .4s;
+  transition: background-color .4s;
+}
+/* line 17, styles.scss */
+.node .controls {
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: none;
+  left: 100%;
+  margin-left: -20px;
+  padding: 3px 10px 3px 20px;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  cursor: pointer;
+}
+/* line 30, styles.scss */
+.node .controls .move {
+  cursor: default;
+  position: relative;
+}
+/* line 34, styles.scss */
+.node .controls .move .available {
+  display: none;
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 10px;
+  left: 100%;
+  padding: 3px 5px;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+/* line 45, styles.scss */
+.node .controls .move .available > div {
+  cursor: pointer;
+}
+/* line 50, styles.scss */
+.node .controls .move:hover .available {
+  display: block;
+}
+/* line 57, styles.scss */
+.node .person {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  margin-bottom: 10px;
+}
+/* line 63, styles.scss */
+.node .person .name {
+  background-color: #ffffff;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 3px 10px;
+}
+/* line 72, styles.scss */
+.node .person .name span {
+  display: block;
+}
+/* line 77, styles.scss */
+.node .person:hover {
+  z-index: 2;
+}
+/* line 80, styles.scss */
+.node .person:hover .controls {
+  display: block;
+}
+/* line 86, styles.scss */
+.node .department {
+  vertical-align: middle;
+}
+/* line 92, styles.scss */
+.node .controls > div,
+.node .available > div {
+  padding: 0 10px;
+  background-color: transparent;
+  border-radius: 3px;
+  -webkit-transition: background-color .4s;
+  -moz-transition: background-color .4s;
+  -ms-transition: background-color .4s;
+  -o-transition: background-color .4s;
+  transition: background-color .4s;
+}
+/* line 103, styles.scss */
+.node .controls > div:hover,
+.node .available > div:hover {
+  background-color: rgba(80, 80, 80, 0.1);
+}
+/* line 109, styles.scss */
+.node:hover {
+  background-color: rgba(80, 80, 80, 0.1);
+}
+/* line 114, styles.scss */
+.node.no-department .person {
+  margin-bottom: 0;
+}

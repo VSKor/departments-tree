@@ -1,0 +1,268 @@
+{
+	"name": "Саянович Никита",
+	"position": "director",
+	"uid": 4,
+	"department": [
+		{
+			"name": "Бруевич Артём",
+			"position": "vice",
+			"uid": 5,
+			"department": [
+				{
+					"name": "Ягемана Кристина",
+					"position": "contractor",
+					"uid": 0,
+					"department": [
+						{
+							"name": "Егорова Валентина",
+							"position": "courier",
+							"uid": 21
+						},
+						{
+							"name": "Шагидзянова Ольга",
+							"position": "courier",
+							"uid": 17
+						},
+						{
+							"name": "Курепин Виссарион",
+							"position": "courier",
+							"uid": 18
+						}
+					]
+				},
+				{
+					"name": "Куликов Артём",
+					"position": "contractor",
+					"uid": 1,
+					"department": [
+						{
+							"name": "Егорова Валентина",
+							"position": "courier",
+							"uid": 21
+						},
+						{
+							"name": "Шагидзянова Ольга",
+							"position": "courier",
+							"uid": 17
+						},
+						{
+							"name": "Куликов Никифор",
+							"position": "courier",
+							"uid": 28
+						}
+					]
+				},
+				{
+					"name": "Языкина Кристина",
+					"position": "contractor",
+					"uid": 6,
+					"department": [
+						{
+							"name": "Яндиева Валентина",
+							"position": "courier",
+							"uid": 27
+						},
+						{
+							"name": "Набойщиков Мефодий",
+							"position": "courier",
+							"uid": 29
+						},
+						{
+							"name": "Королёв Афанасий",
+							"position": "courier",
+							"uid": 30
+						},
+						{
+							"name": "Пищикова Варвара",
+							"position": "courier",
+							"uid": 26
+						}
+					]
+				},
+				{
+					"name": "Нырко Виктория",
+					"position": "contractor",
+					"uid": 7,
+					"department": [
+						{
+							"name": "Удома Василиса",
+							"position": "courier",
+							"uid": 31
+						},
+						{
+							"name": "Богров Денис",
+							"position": "courier",
+							"uid": 32
+						},
+						{
+							"name": "Страхов Богдан",
+							"position": "courier",
+							"uid": 33
+						},
+						{
+							"name": "Конакова Всеслава",
+							"position": "courier",
+							"uid": 34
+						},
+						{
+							"name": "Андрейченко Владислав",
+							"position": "courier",
+							"uid": 16
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Беломестина Марина",
+			"position": "vice",
+			"uid": 2,
+			"department": [
+				{
+					"name": "Круминь Эльвира",
+					"position": "contractor",
+					"uid": 8,
+					"department": [
+						{
+							"name": "Лялюшкина Евдокия",
+							"position": "courier",
+							"uid": 36
+						},
+						{
+							"name": "Калитин Владислав",
+							"position": "courier",
+							"uid": 37
+						}
+					]
+				},
+				{
+					"name": "Ижутин Измаил",
+					"position": "contractor",
+					"uid": 10,
+					"department": [
+						{
+							"name": "Янушковский Никифор",
+							"position": "courier",
+							"uid": 46
+						},
+						{
+							"name": "Янаев Владимир",
+							"position": "courier",
+							"uid": 47
+						},
+						{
+							"name": "Чалый Александр",
+							"position": "courier",
+							"uid": 48
+						},
+						{
+							"name": "Алимкин Мстислав",
+							"position": "courier",
+							"uid": 49
+						},
+						{
+							"name": "Маликов Семён",
+							"position": "courier",
+							"uid": 50
+						}
+					]
+				},
+				{
+					"name": "Глускина Диана",
+					"position": "contractor",
+					"uid": 11,
+					"department": [
+						{
+							"name": "Абросимов Александр",
+							"position": "courier",
+							"uid": 51
+						},
+						{
+							"name": "Усова Маргарита",
+							"position": "courier",
+							"uid": 52
+						},
+						{
+							"name": "Климцов Павел",
+							"position": "courier",
+							"uid": 53
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Бондарева Софья",
+			"position": "vice",
+			"uid": 3,
+			"department": [
+				{
+					"name": "Шелепина Елена",
+					"position": "contractor",
+					"uid": 12,
+					"department": [
+						{
+							"name": "Терёшина Марина",
+							"position": "courier",
+							"uid": 56
+						},
+						{
+							"name": "Рыбяк Михаил",
+							"position": "courier",
+							"uid": 57
+						}
+					]
+				},
+				{
+					"name": "Митасов Тихон",
+					"position": "contractor",
+					"uid": 13,
+					"department": [
+						{
+							"name": "Родионова Диана",
+							"position": "courier",
+							"uid": 61
+						},
+						{
+							"name": "Серпионов Феликс",
+							"position": "courier",
+							"uid": 62
+						},
+						{
+							"name": "Низовский Роман",
+							"position": "courier",
+							"uid": 63
+						},
+						{
+							"name": "Шибалова Виктория",
+							"position": "courier",
+							"uid": 64
+						},
+						{
+							"name": "Беспалов Владимир",
+							"position": "courier",
+							"uid": 65
+						}
+					]
+				},
+				{
+					"name": "Умаметев Зиновий",
+					"position": "contractor",
+					"uid": 15,
+					"department": [
+						{
+							"name": "Маликов Антип",
+							"position": "courier",
+							"uid": 71
+						},
+						{
+							"name": "Богомазов Вацлав",
+							"position": "courier",
+							"uid": 75
+						}
+					]
+				}
+			]
+		}
+	]
+}
